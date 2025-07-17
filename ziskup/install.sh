@@ -10,7 +10,7 @@ BASE_DIR=${XDG_CONFIG_HOME:-$HOME}
 ZISK_DIR=${ZISK_DIR-"$BASE_DIR/.zisk"}
 ZISK_BIN_DIR="$ZISK_DIR/bin"
 
-BIN_URL="https://raw.githubusercontent.com/0xPolygonHermez/zisk/main/ziskup/ziskup"
+BIN_URL="https://raw.githubusercontent.com/syjn99/zisk/main/ziskup/ziskup"
 BIN_PATH="$ZISK_BIN_DIR/ziskup"
 
 # Create the .zisk bin directory and ziskup script if it doesn't exist.

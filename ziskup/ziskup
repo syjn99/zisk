@@ -344,7 +344,7 @@ install_setup() {
 
     # Extract the key
     step "Installing ${KEY_TYPE} key version ${SETUP_VERSION}..."
-    ensure tar --overwrite -xf "${KEY_FILE}" -C "${HOME}/.zisk"
+    ensure tar -xzf "${KEY_FILE}" -C "${HOME}/.zisk"
     rm -f "${KEY_FILE}"
     rm -f "${KEY_FILE}.md5"
     say "Installed ${KEY_TYPE} key version ${SETUP_VERSION}"
