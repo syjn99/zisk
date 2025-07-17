@@ -196,10 +196,10 @@ EOF
   SETUP_VERSION="${major}.${minor}.0"
   case "${SETUP_KEY}" in
     proving)
-      install_setup "proving"
+      # install_setup "proving"
       ;;
     verify)
-      install_setup "verify"
+      # install_setup "verify"
       ;;
     none)
       # Do nothing
